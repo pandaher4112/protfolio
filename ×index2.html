@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">  <!--検索ページにフィットさせない指示-->
+    <title>CHICO HOUSE</title>
+    <meta name="description" content="理想のお部屋探しをお手伝いするCHICO HOUSE。住みたいお部屋がきっと見つかる。">
+    <!--css-->
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--js-->
+    <script src="./js/jquery-3.6.0.min.js" defer></script> <!--deferをつけるとHTML読んだあとにjavaを読み込みする-->
+    <script src="./js/script.js" defer></script>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ght@400;700&family=Noto+Sans+JP:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!--swiper.js-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7.4.1/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@7.4.1/swiper-bundle.min.js" defer></script>
+</head>
+
+<body>
+    <!--header-->
+    <header id="header" class="header">
+        <div class="bl-header"><!--改修をし易くするためにプロックを作る-->
+            <div class="bl-headerLogo">
+                <img src="./images/logo.png" alt="ロゴ画像">
+            </div>
+            <nav class="bl-headerNav"><!--Navigation部分を設定-->
+                <ul class="bl-headerNavLists">
+                    <li class="el-headerNavList"><a href="#top">HOME</a></li>
+                    <div class="el-headerNavSep"></div> <!--/斜め線を入れる-->
+                    <li class="el-headerNavList"><a href="#service">SERVICE</a></li>
+                    <div class="el-headerNavSep"></div>
+                    <li class="el-headerNavList"><a href="#about">ABOUT</a></li>
+                    <div class="el-headerNavSep"></div>
+                    <li class="el-headerNavList"><a href="#housing">HOUSING</a></li>
+                    <div class="el-headerNavSep"></div>
+                    <li class="el-headerNavList"><a href="#recruit">RECRUIT</a></li>
+                    <div class="el-headerNavSep"></div>
+                    <li class="el-headerNavList"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="bl-humbergerMenu">
+                <div class="openbtn1"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+        <div class="bl-humbergerMenuNav">
+            <ul class="bl-humbergerMenuNavLists">
+                <li class="el-humbergerMenuNavList"><a href="#top">HOME</a></li>
+                <li class="el-humbergerMenuNavList"><a href="#service">SERVICE</a></li>
+                <li class="el-humbergerMenuNavList"><a href="#about">ABOUT</a></li>
+                <li class="el-humbergerMenuNavList"><a href="#housing">HOUSING</a></li>
+                <li class="el-humbergerMenuNavList"><a href="#recruit">RECRUIT</a></li>
+                <li class="el-humbergerMenuNavList"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--top-->
+    <section id="top" class="top">
+        <div class="bl-top">
+            <div class="bl-topContents">
+                <h1>It's gonna be a great day!</h1>
+                <div class="bl-topCatchcopies">
+                    <div class="el-topCatchcopy">
+                        <p>住みたいお部屋が</p>
+                    </div>
+                    <div class="el-topCatchcopy">
+                        <p>きっと見つかる♪</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bl-topPickupNews">
+                <div class="el-topPickupNewsTtl">
+                    <p>Pick Up News</p>
+                </div>
+                <div class="bl-topPickupNewsItems">
+                    <div class="bl-topPickupNewsItem">
+                        <div class="bl-topPickupNewsItemImg"><img src="./images/pickupNews01.png" alt="ニュース画像1"></div>
+                        <div class="bl-topPickupNewsItemContents">
+                            <p class="el-topPickupNewsItemConTime">2020.06.20</p>
+                            <a href="#" class="el-topPickupNewsItemConTtl">【新築情報】西条タワー入居受付開始！</a>
+                        </div>
+                    </div>
+                    <div class="bl-topPickupNewsItem">
+                        <div class="bl-topPickupNewsItemImg"><img src="./images/pickupNews02.png" alt="ニュース画像2"></div>
+                        <div class="bl-topPickupNewsItemContents">
+                            <p class="el-topPickupNewsItemConTime">2020.06.10</p>
+                            <a href="#" class="el-topPickupNewsItemConTtl">【募集情報】最新内見可能物件５件</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/topBg01.png" alt="トップ画像1"></div>
+                    <div class="swiper-slide"><img src="./images/topBg02.png" alt="トップ画像2"></div>
+                    <div class="swiper-slide"><img src="./images/topBg03.png" alt="トップ画像3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--service-->
+    <section id="service" class="service">
+        <div class="bl-service">
+            <div class="bl-serviceBox">
+                <div class="bl-serviceBoxImg"><img src="./images/service-img.png" alt="サービスページ画像"></div>
+                <div class="bl-serviceBoxContents">
+                    <div class="bl-commonHeadingBox">
+                        <h2 class="el-commonHeadingBoxTtl">SERVICE</h2>
+                        <div class="el-commonHeadingBoxTtlSep"></div>
+                        <p class="el-commonHeadingBoxSubTtl">事業内容</p>
+                    </div>
+                    <h3 class="el-serviceBoxConCatchcopy">あなたの理想を叶える、<br>オシャレで機能的なマイホーム。</h3>
+                    <p class="el-serviceBoxConDescription">
+                        人生の多くの時間を過ごすマイホーム。<br>帰りたくなる、ずっと住んでいたい。そんな理想的で機能的なあなたにピッタリのお部屋をご案内します。</p>
+                    <div class="bl-commonBtn">
+                        <a href="#" class="el-commonBtnTxt">事業内容を更に見る →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section id="about" class="about">
+        <div class="bl-about">
+            <div class="bl-aboutBox">
+                <div class="bl-aboutBoxContents">
+                    <div class="bl-commonHeadingBox">
+                        <h2 class="el-commonHeadingBoxTtl">ABOUT</h2>
+                        <div class="el-commonHeadingBoxTtlSep"></div>
+                        <p class="el-commonHeadingBoxSubTtl">会社紹介</p>
+                    </div>
+                    <p class="el-aboutBoxConDescription">CHICO
+                        HOUSEは中国地方を中心に、物件の紹介、新築物件のご提案をしている不動産会社になります。<br>お客様の理想のマイホームをご提案するため、ご要望をじっくりとご相談いただき、満足のいくお部屋をご提案いたします。
+                    </p>
+                    <div class="bl-commonBtn">
+                        <a href="#" class="el-commonBtnTxt">詳しく見る →</a>
+                    </div>
+                    <div class="bl-aboutBoxConImg"><img src="./images/about-img.png" alt="会社紹介ページ画像"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--housing-->
+    <section id="housing" class="housing">
+        <div class="bl-housing">
+            <div class="bl-housingBox">
+                <div class="bl-commonHeadingBox">
+                    <h2 class="el-commonHeadingBoxTtl">HOUSING</h2>
+                    <div class="el-commonHeadingBoxTtlSep"></div>
+                    <p class="el-commonHeadingBoxSubTtl">物件紹介</p>
+                </div>
+                <h3 class="el-housingBoxCatchcopy">住みたい理想を叶えるCHICO HOUSEの物件をご紹介</h3>
+                <div class="bl-housingBoxCards">
+                    <div class="bl-housingBoxCard">
+                        <div class="bl-housingBoxCardImg">
+                            <img src="./images/housing01.png" alt="物件紹介画像02">
+                            <div class="bl-housingBoxCardNum">
+                                <p>01</p>
+                            </div>
+                        </div>
+                        <div class="bl-housingBoxCardContents">
+                            <h3 class="el-housingBoxCardConTtl">新築物件</h3>
+                            <p class="el-housingBoxCardConDescription">お客様の理想の家をCHICO HOUSEが1からデザインし、ご提案いたします。</p>
+                        </div>
+                    </div>
+                    <div class="bl-housingBoxCard">
+                        <div class="bl-housingBoxCardImg">
+                            <img src="./images/housing02.png" alt="物件紹介画像02">
+                            <div class="bl-housingBoxCardNum">
+                                <p>02</p>
+                            </div>
+                        </div>
+                        <div class="bl-housingBoxCardContents">
+                            <h3 class="el-housingBoxCardConTtl">マンション物件</h3>
+                            <p class="el-housingBoxCardConDescription">お客様のご要望に沿ったお部屋探しをCHICO HOUSEがお手伝いいたします。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bl-commonBtn">
+                    <a href="#" class="el-commonBtnTxt">詳しく見る →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--recruit-->
+    <section id="recruit" class="recruit">
+        <div class="bl-recruit">
+            <div class="bl-recruitBox">
+                <div class="bl-commonHeadingBox">
+                    <h2 class="el-commonHeadingBoxTtl">RECRUIT</h2>
+                    <div class="el-commonHeadingBoxTtlSep"></div>
+                    <p class="el-commonHeadingBoxSubTtl">採用情報</p>
+                </div>
+                <div class="bl-recruitBoxCards">
+                    <div class="bl-recruitBoxCard">
+                        <img src="./images/recruit01.png" alt="採用情報ページ画像01">
+                        <div class="bl-recruitBoxCardLink">
+                            <a href="#">CHICO HOUSEを知る →</a>
+                        </div>
+                    </div>
+                    <div class="bl-recruitBoxCard">
+                        <img src="./images/recruit02.png" alt="採用情報ページ画像02">
+                        <div class="bl-recruitBoxCardLink">
+                            <a href="#">CHICO HOUSEの一日 →</a>
+                        </div>
+                    </div>
+                    <div class="bl-recruitBoxCard">
+                        <img src="./images/recruit03.png" alt="採用情報ページ画像03">
+                        <div class="bl-recruitBoxCardLink">
+                            <a href="#">求める人物像 →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bl-commonBtn">
+                    <a href="#" class="el-commonBtnTxt">詳しく見る →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact" class="contact">
+        <div class="bl-contact">
+            <div class="bl-contactBox">
+                <div class="bl-commonHeadingBox">
+                    <h2 class="el-commonHeadingBoxTtl hl-white">CONTACT</h2>
+                    <div class="el-commonHeadingBoxTtlSep hl-bdwhite"></div>
+                    <p class="el-commonHeadingBoxSubTtl hl-white">お問い合わせ</p>
+                </div>
+                <p class="el-contactBoxDescription">新築物件のお見積り、マンション物件のご相談等<br>お気軽にご連絡ください。</p>
+                <div class="bl-contactBoxLinks">
+                    <div class="bl-contactBoxLink"><a href="#">お見積りのご相談はこちら →</a></div>
+                    <div class="bl-contactBoxLink"><a href="#">その他のご連絡はこちら →</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer id="footer" class="footer">
+        <div class="bl-footer">
+            <div class="bl-footerBox">
+                <div class="bl-footerBoxInfo">
+                    <div class="bl-footerBoxInfoLogo"><img src="./images/logo-footer.png" alt="ロゴ画像"></div>
+                    <div class="bl-footerBoxInfoData">
+                        <p>株式会社 CHICO HOUSE</p>
+                        <p>〒000-0000</p>
+                        <p>広島県広島市○○○○</p>
+                        <a href="tel:000-0000-0000">TEL: 000-0000-0000</a>
+                        <p>FAX: 000-0000-0000</p>
+                    </div>
+                </div>
+                <div class="bl-footerBoxMap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.5327910433434!2d132.4595143155541!3d34.38780140741883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd9dd4d250edd942a!2zMzTCsDIzJzE2LjEiTiAxMzLCsDI3JzQyLjEiRQ!5e0!3m2!1sja!2sjp!4v1657024531513!5m2!1sja!2sjp" width="500" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+        </div>
+    </footer>
+
+    <!--copyright-->
+    <section id="copyright" class="copyright">
+        <div class="bl-copyright">
+            <p>Copyrigth &copy; CHICO HOME 2022</p>
+        </div>
+    </section>
+</body>
+
+</html>

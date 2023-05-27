@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="私の紹介ページを作成いたしました。ご確認頂けると助かります。">
+    <!--css-->
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--js-->
+    <script src="./js/jquery-3.6.0.min.js" defer></script> <!--deferをつけるとHTML読んだあとにjavaを読み込みする-->
+    <script src="./js/script.js" defer></script>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+    <!--swiper.js-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7.4.1/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@7.4.1/swiper-bundle.min.js" defer></script>
+</head>
+<body>
+    <!--header-->
+    <header id="header" class="header">
+        <div  class="bl-header">
+            <div class="bl-headerLogo">
+                <img src="./img/logo.jpg" alt="ロゴ画像">
+            </div>
+            <nav class="bl-headerNav">
+                <ul class="bl-headerNavLists">
+                    <li class="bl-headerNavList bl-current"><a href="#top">HOME</a></li>
+                    <div class="el-headerNavSep"></div>
+                    <li class="bl-headerNavList"><a href="#sample">SAMPLE</a></li>
+                    <div class="el-headerNavSep"></div>
+                    <li class="bl-headerNavList"><a href="#flow">FLOW</a></li>
+                    <div class="el-headerNavSep"></div>
+                    <li class="bl-headerNavList"><a href="#about">ABOUT</a></li>
+                    <div class="el-headerNavSep"></div>
+                    <li class="bl-headerNavList"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="bl-humbergarMenu">
+                <div class="openbtn4"><span></span><span></span><span></span> </div>
+            </div>
+        </div>
+        <div class="bl-humbergarMenuNav">
+            <ul class="bl-humbergarMenuNavLists ">
+                <li class="el-humbergarMenuNavList"><a href="#top">HOME</a></li>
+                <li class="el-humbergarMenuNavList"><a href="#sample">SAMPLE</a></li>
+                <li class="el-humbergarMenuNavList"><a href="#flow">FLOW</a></li>
+                <li class="el-humbergarMenuNavList"><a href="#about">ABOUT</a></li>
+                <li class="el-humbergarMenuNavList"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--common-->
+    <!--top-->
+    <section class="top" id="top">
+        <div class="bl-top">
+            <div class="bl-topContents">
+                <h1>Change!! New Web.</h1>
+                <div class="bl-topCatchcopyes">
+                    <div class="el-topCatchcopy">
+                        <p>お客様とのコミュニケーションを通じて</p>
+                    </div>
+                    <div class="el-topCatchcopy">
+                        <p>新しい価値を生み出すお手伝いを!!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bl-topPickupNews fadeOut">
+                <div class="el-topPickupNewsTitle">
+                    <p>News Pick Up!</p>
+                </div>
+                <div class="bl-topPickupNewsItems dspOff">
+                    <div class="bl-topPickUpNewsItemsBox">
+                        <div class="bl-topPickUpNewsItem">
+                            <div class="bl-topPickupNewsItemImg"><img src="./img/housing01.png" alt="Housing画像"></div>
+                            <div class="bl-topPickupNewsItemContent">
+                                <p class="el-topPickupNewsItemContentTime">202.09.17</p>
+                                <a href="#" class="el-topPicupNewsItemContentTitle">コーポレートサイト掲載</a>
+                            </div>
+                        </div>
+                        <div class="bl-topPickUpNewsItem">
+                            <div class="bl-topPickupNewsItemImg"><img src="./img/about.jpg" alt="自己紹介画像"></div>
+                            <div class="bl-topPickupNewsItemContent">
+                                <p class="el-topPickupNewsItemContentTime">2020.09.01</p>
+                                <a href="#" class="el-topPicupNewsItemContentTitle">自己紹介ページを更新</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/top1.jpg" alt="トップ画像1"> </div>
+                    <div class="swiper-slide"><img src="./img/top2.jpg" alt="トップ画像2"> </div>
+                    <div class="swiper-slide"><img src="./img/top3.jpg" alt="トップ画像3"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--sample-->
+    <section class="sample" id="sample">
+        <div class="bl-sample">
+            <div class="bl-sampleBox">
+                <div class="bl-commonHeadingBox">
+                    <h2 class="el-commonHeadingBoxTitle">SAMPLE</h2>
+                    <div class="el-commonHeadingBoxSep"></div>
+                    <p class="el-commonHeadingBoxSubTitle">制作事例</p>
+                </div>
+                <h3 class="el-sampleBoxCatchcopy">理想を叶えるMyWEBサイトの事例をご紹介</h3>
+                <div class="bl-sampleBoxCards">
+                    <div class="bl-sampleBoxCard">
+                        <div class="bl-sampleBoxCardImg">
+                            <img src="./img/samp1.png" alt="sample画像1">
+                            <div class="bl-sampleBoxCardNum">
+                                <p>01</p>
+                            </div>
+                        </div>
+                        <div class="bl-sampleBoxCardContents">
+                            <h4 class="el-sampleBoxCardConTitle">制作事例1</h4>
+                            <p class="el-sampleBoxCardConDescription">(準備中)</p>
+                        </div>
+                    </div>
+                    <div class="bl-sampleBoxCard">
+                        <div class="bl-sampleBoxCardImg">
+                            <img src="./img/samp2.jpg" alt="sample画像2">
+                            <div class="bl-sampleBoxCardNum">
+                                <p>02</p>
+                            </div>
+                        </div>
+                        <div class="bl-sampleBoxCardContents">
+                            <h4 class="el-sampleBoxCardConTitle">制作事例2</h4>
+                            <p class="el-sampleBoxCardConDescription">(準備中)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Flow-->
+    <section class="flow" id="flow">
+        <div class="bl-flow">
+            <div class="bl-flowBox">
+                <div class="bl-commonHeadingBox">
+                    <h2 class="el-commonHeadingBoxTitle">Flow</h2>
+                    <div class="el-commonHeadingBoxSep"></div>
+                    <p class="el-commonHeadingBoxSubTitle">制作の流れ</p>
+                </div>
+                <div class="bl-flowBoxCards">
+                    <div class="bl-flowBoxCard">
+                        <p class="bl-flowBoxCardTitle">01.ヒアリング</p>
+                        <div class="bl-flowBoxCardDescription">
+                            <div class="bl-flowBoxCardDescriptionImg">
+                                <img src="./img/41266_s.jpg" alt="ヒアリング">
+                            </div>
+                            <P class="bl-flowBoxCardDescriptionTxt">
+                            「どんなサイトを作りたいか」
+                            「サイト制作におけるゴールは何か」
+                            などを相談します。
+                            </p>
+                        </div>
+                    </div>  
+                    <div class="bl-flowBoxCardSep arrow"></div>
+                    <div class="bl-flowBoxCard">
+                        <p class="bl-flowBoxCardTitle">02.デザイン</p>
+                        <div class="bl-flowBoxCardDescription">
+                            <div class="bl-flowBoxCardDescriptionImg">
+                                <img src="./img/desin.jpg" alt="デザイン">
+                            </div>
+                            <p class="bl-flowBoxCardDescriptionTxt">
+                            既にご用意されているデザインまたは、
+                            ヒアリングで落とし込んだ内容を元に
+                            デザインを制作します。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bl-flowBoxCardSep arrow"></div>
+                    <div class="bl-flowBoxCard">
+                        <p class="bl-flowBoxCardTitle">03.コーディング</p>
+                        <div class="bl-flowBoxCardDescription">
+                            <div class="bl-flowBoxCardDescriptionImg">
+                                <img src="./img/coding.jpg" alt="コーディンク">
+                            </div>
+                            <p class="bl-flowBoxCardDescriptionTxt">
+                            デザインを元にコーディング。
+                                搭載機能により、約2日～4日/ページを目安に制作。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bl-flowBoxCardSep arrow"></div>
+                    <div class="bl-flowBoxCard">
+                        <p class="bl-flowBoxCardTitle">04.制作物の確認</p>
+                        <div class="bl-flowBoxCardDescription">
+                            <div class="bl-flowBoxCardDescriptionImg">
+                                <img src="./img/check.jpg" alt="確認">
+                            </div>
+                            <p class="bl-flowBoxCardDescriptionTxt">
+                                制作物をお客様と一緒に確認します。
+                                問題がなければ、制作完了となります。
+                            </p>
+                        </div>
+                   </div>
+                </div>
+                <div class="bl-commonBtn">
+                    <a href="#contact" class="el-commonBtnTxt">詳細はお問い合わせください</a>
+                </div>
+             </div>
+        </div>
+    </section>
+    <!--about-->
+    <section class="about" id="about">
+        <div class="bl-about">
+            <div class="bl-aboutBox">
+                <div class="bl-commonHeadingBox">
+                    <h2 class="el-commonHeadingBoxTitle">About</h2>
+                    <div class="el-commonHeadingBoxSep"></div>
+                    <p class="el-commonHeadingBoxSubTitle">自己紹介</p>
+                </div>
+                <div class="bl-aboutBoxCards">
+                    <div class="bl-aboutBoxCard">
+                        <div class="bl-aboutBoxCardImg">
+                            <img src="./img/about.jpg" alt="">
+                        </div>
+                        <div class="bl-aboutBoxCardContener">
+                            <div class="bl-aboutBoxCardContenerTitle">
+                                <h3>Name:岡本 昭生</h3>
+                            </div>
+                            <div class="bl-aboutBoxCardContenerTxt">
+                                <p>
+                                    富士通株式会社のグループ会社にて、10年程PC部門
+                                    のコンタクトセンター業務を行う。
+                                    当時はプログラミングサポート等も行い、
+                                    サンプルプログラム等の雑誌への掲載経験もあり。<br>
+                                    その後、教育・人事等の業務を経て現在に至る。
+                                    2000年より社内用のWEBサイトを制作。
+                                    当時主流であったInternetExprolaのASP
+                                    技術を中心にWeb開発を実施。
+                                    特にSQL-Serverとのデータ連携サイトを構築。
+                                    現在ではWordPressを活用したコーポレートサイトを制作。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bl-aboutBoxCard">
+                        <div class="bl-aboutBoxCardContener">
+                            <div class="bl-aboutBoxCardContenerTitle">
+                                <h3>SKILL:</h3>
+                            </div>
+                            <div class="bl-aboutBoxCardContenerTxt">
+                                <p>2000年より、HTML/CSS/javaScript<br>
+                                    2022年より SASS/JQuery/PHP/WordPressを活用したサイト構築を実施。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bl-aboutBoxCardImg">
+                            <img src="./img/3334873_s.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!--contact-->
+    <section id="contact" class="contact">
+        <div class="bl-contact">
+            <div class="bl-contactBox">
+                <div class="bl-commonHeadingBox">
+                    <h3 class="el-commonHeadingBoxTitle ">CONTACT</h2>
+                    <div class="el-commonHeadingBoxSep"></div>
+                    <p class="el-commonHeadingBoxSubTitle ">お問い合わせ</p>
+                </div>
+                <p class="el-contactBoxDescription">WEB制作のご依頼、御見積、ご相談等<br>お気軽にご連絡下さい。</p>
+                <div class="bl-contactBoxLinks">
+                    <div class="bl-contactBoxLink"><a href="#"></a>お問い合わせについてはこちら</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer id="footer" class="footer">
+        <div class="bl-copyright">
+            <p>Copyright &copy; Akio Okamoto</p>
+        </div>
+    </footer>
+    <!--copyright-->
+    <!-- <section class="copyright" id="copyright"> -->
+        <!-- <div class="bl-footer">
+            <div class="bl-footerBox">
+                <div class="bl-footerBoxInfo">
+                    <div class="bl-footerBoxInfoLogo"><img src="./img/logo.jpg" alt="ロゴ画像"></div>
+                    <div class="bl-footerBoxInfoData">
+                        <p>岡本 昭生</p>
+                        <p>〒241-0005</p>
+                        <p>神奈川県横浜市</p>
+                        <a href="tel:090-2209-9981">TEL 090-2209-9981</a>
+                        <p>FAX 045-952-6720</p>
+                    </div>
+                </div>
+                <div class="bl-footerBoxMap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1624.5053901234137!2d139.5553631779779!3d35.4792771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601859bb08602aab%3A0x296647ad959b9fb0!2z44CSMjQxLTAwMDUg56We5aWI5bed55yM5qiq5rWc5biC5pet5Yy655m95qC577yR5LiB55uu77yS77yQ4oiS77yS77yV!5e0!3m2!1sja!2sjp!4v1663510393873!5m2!1sja!2sjp" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+        </div> -->
+    <!-- </section> -->
+</body>
+</html>
